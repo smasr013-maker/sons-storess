@@ -17,7 +17,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 logger = logging.getLogger(__name__)
 
 # ==================== CONFIG ====================
-BOT_TOKEN     = os.environ.get('BOT_TOKEN',   "8343904431:AAGb6lMs1MNbiXaYN7d4qlO9sx3TG6YvxnE").strip()
+BOT_TOKEN     = os.environ.get('BOT_TOKEN',   "8353606401:AAGU_I2A3OQvbYcPy7OCxWbwi2pSe_dN4ns").strip()
 OWNER_ID      = int(os.environ.get('OWNER_ID', '6285783725'))
 WEBAPP_HOST   = "0.0.0.0"
 WEBAPP_PORT   = int(os.environ.get('PORT', 5050))
